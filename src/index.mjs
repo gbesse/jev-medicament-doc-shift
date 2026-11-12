@@ -33,3 +33,5 @@ export async function runCli(argv, io = console) {
   const dossier = medicineDocumentChange(JSON.parse(await readFile(argv[0], "utf8")));
   io.log(JSON.stringify({ dossier, prochaineÉtape: "Transmettez ce dossier à compareMedicineDocument avec un fournisseur Jev configuré." }, null, 2));
 }
+
+export * from './sprint-nov12.mjs';

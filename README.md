@@ -89,3 +89,12 @@ npm run demo
 La CI exécute ces vérifications sous Node.js 22 et 24.
 
 Projet indépendant, sans affiliation avec TypeSafe AI, data.gouv.fr ni l’administration française. Consultez la [documentation de l’API Jev](https://docs.typesafe.ai/api) et les [limites du modèle](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
+
+
+## 2026-11-12 — FR / EN / ES
+
+FR : Comparer les sections de documents avec empreintes exactes sans interprétation clinique.
+
+EN: Compare document sections with exact hashes and no clinical interpretation.
+
+ES: Comparar secciones documentales con huellas exactas sin interpretación clínica.

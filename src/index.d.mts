@@ -5,3 +5,5 @@ export const DECISIONS: Readonly<Record<string, string>>;
 export function medicineDocumentChange(input: any): SourceRecord;
 export function compareMedicineDocument(input: any, provider: JevProvider): Promise<any>;
 export function runCli(argv: string[], io?: { log(value: string): void }): Promise<void>;
+
+export function compareDocumentSections(before:any[],after:any[]):{sections:any[];clinicalMeaningInferred:boolean;medicalAdviceProvided:boolean};

@@ -1,6 +1,6 @@
 {
   "name": "@gbesse/jev-medicament-doc-shift",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Classe les changements entre versions de notices et documents officiels d’un médicament.",
   "type": "module",
   "license": "MIT",
